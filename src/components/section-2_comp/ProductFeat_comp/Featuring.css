@@ -32,8 +32,11 @@ h4{
     .feat-wrapper{
         height: 12em;
         width: 14em;
+        margin-bottom: 2em;
     }
    #seat, #material{
     font-size: 0.8em;
    }
+
+
 }
