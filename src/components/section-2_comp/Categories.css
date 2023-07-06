@@ -1,0 +1,40 @@
+.wrapperi{
+    padding: 2px;
+    border-radius: 0 0px 30px 30px;
+    border: 1px #7F5AF0 solid;
+}
+
+.menu-name{
+    background-color: #7F5AF0;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+hr{
+    margin: 0;
+}
+
+#arrow{
+    height: 18px;
+    width: 12px;
+    filter: invert(1);
+    transition: transform .7s ease-in-out;
+}
+
+#arrow:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+h5{
+    font-size: 14px;
+}
+
+.item-wrapper{
+    text-align: center;
+    padding: 1em 2em 0.5em 2em;
+    display: flex;
+    justify-content: space-between;
+}

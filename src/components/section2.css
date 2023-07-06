@@ -1,0 +1,26 @@
+.product-row{
+    padding-top: 3em;
+
+}
+
+#what{
+    font-weight: 900;
+    opacity: 0.8;
+}
+
+#offer{
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.navi-links{
+    font-size: 18px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    text-align: center;
+}
+
+
+#last-row{
+    margin-top: 5em;
+}

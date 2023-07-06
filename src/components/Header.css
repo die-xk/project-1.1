@@ -1,0 +1,27 @@
+.navbar-brand{
+    color: #7F5AF0 !important;
+    font-weight: 800;
+}
+
+.nav-link{
+    color: #7F5AF0 !important;
+    font-weight: 600;
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler-icon{
+    background-image: url('../assets/hamburger.svg');
+}
+
+.btn:focus{
+    color: #7F5AF0 !important;
+}

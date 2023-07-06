@@ -1,0 +1,14 @@
+#sector3-padd{
+    margin-top: 5em;
+}
+
+.bg-wrapper{
+    height: 30rem;
+    width: 25rem;
+    background-color: #29292D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+

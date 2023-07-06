@@ -1,0 +1,10 @@
+.product-plane{
+    height: 50px;
+}
+
+.sheet{
+    background-color: black;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
