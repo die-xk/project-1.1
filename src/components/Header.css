@@ -4,7 +4,7 @@
 }
 
 .nav-link{
-    color: #7F5AF0 !important;
+    color: white !important;
     font-weight: 600;
     opacity: 0.6;
     font-size: 18px;
@@ -24,4 +24,16 @@
 
 .btn:focus{
     color: #7F5AF0 !important;
+}
+
+
+#logo{
+    width: 8rem;
+    height: 5rem;
+}
+
+.navigation-links{
+    font-weight: 900 !important;
+    font-size: 26px;
+    margin-left: 2em;
 }

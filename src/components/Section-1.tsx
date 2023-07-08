@@ -8,7 +8,8 @@ import './section.css'
 function Section1 () {
     return(
         <>
-            <Container  fluid className="section-wrapper">
+            <Container className="section-wrapper">
+                
                 <Col xs={12} sm={12} md={12} lg={6}>
                     <Row xs={12} sm={12}>
                         <Row xs={12} sm={12}>
@@ -24,40 +25,56 @@ function Section1 () {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit assumenda quaerat.
                             </p>
                         </Row>
-
-
-                        <Row>
-                            <Col>
-
-                            </Col>
-                            <Col xs={12} className="mx-auto mb=xs-6 colona">
-                                <Button className='mb-5' variant="primary">Read more</Button>
-                            </Col>
-                        </Row>
                     </Row>
+
+                    <br /><br />
+
                     <Row xs={12} sm={12}>
-                            <h3 className='text-start'>
-                                Find your Car!
-                            </h3>  
+                        <Col>
+                            <Row>
+                                <h3 className='text-starti'>
+                                    Find your Car!
+                                </h3>
+                            </Row>  
                             <br />
-                            <Form>
-                                <Row>
-                                    <Col xs={12} xm={12} lg={6} className='mb-2'>
-                                        <Form.Control placeholder="Make" />
-                                    </Col>
-                                    <Col>
-                                        <Form.Control placeholder="Model"/>
-                                    </Col>
-                                </Row>
-                            </Form>
-                            
-                            <h5 id='or' className='text-start'>
-                                Or
-                            </h5>
-                            
-                            <Button variant="primary" size="lg">
-                                Log in
-                            </Button>
+                            <Row>
+                                <Form>
+                                    <Row>
+                                        <Col xs={12} xm={12} lg={6} className='mb-2'>
+                                        <Row>
+                                                <h2 id='make-model'>Make</h2>
+                                            </Row>
+                                            <Row>
+                                                <div className="new-border">
+                                                    <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
+                                                </div>
+                                            </Row>
+                                            
+                                        </Col>
+                                        <Col>
+                                            <Row>
+                                                <h2 id='make-model'>Model</h2>
+                                            </Row>
+                                            <Row>
+                                                <div className="new-border">
+                                                    <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
+                                                </div>
+                                            </Row>
+                                        </Col>
+                                    </Row>
+                                </Form>
+                            </Row>
+                            <Row>
+                                <h5 id='or' className='text-start'>
+                                    Or
+                                </h5>
+                            </Row>
+                            <Row>
+                                <Button className='long-btn' variant="primary" size="lg">
+                                    Log in
+                                </Button>
+                            </Row>
+                        </Col>
                     </Row>
                 </Col>
             </Container>
