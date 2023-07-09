@@ -5,24 +5,26 @@ import Col from 'react-bootstrap/Col';
 
 function Product3() {
   return (
-    <div className="wrapper-prod">
-        <Container>
+    <>
+        <Container className='proood'>
             <Row>
-                <img height={"90vh"} width={"4rem"} src="" alt="" />
+                <div className="eight"></div>
             </Row>
-            <Row className='cont-for-row'>
+            <Row className='text-row'>
                 <Col>
-                    <Row>Product Name</Row>
-                    <Row>$300.00</Row>
+                    <h2 id='tint'>TINTING SERVICE</h2>
+                    <h3 id='tint-price'>$300.00</h3>
                 </Col>
                 <Col>
                     <div className="shop-cart">
-                        <img width="20" height="20" src="https://img.icons8.com/ios/20/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+
+                        <img id='shop-cart-ico' src="src/assets/products/add-to-cart.png" alt="" />
+
                     </div>
                 </Col>
             </Row>
         </Container>
-    </div>
+    </>
   )
 }
 

@@ -2,11 +2,7 @@
     margin-bottom: 2em;
 }
 
-.space{
-    height: 3em;
-    width: 100%;
-    background-color: #16161A;
-}
+
 
 @media only screen and (max-width : 767px){
     .comp{

@@ -2,6 +2,7 @@
     padding: 2px;
     border-radius: 0 0px 30px 30px;
     border: 1px #7F5AF0 solid;
+    background-color: #3C3C40 ;
 }
 
 .menu-name{
@@ -29,7 +30,11 @@ hr{
 }
 
 h5{
+    position: relative;
+    left: -1em;
     font-size: 14px;
+    font-weight: 900;
+    opacity: 0.6;
 }
 
 .item-wrapper{

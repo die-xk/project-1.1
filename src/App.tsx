@@ -15,11 +15,12 @@ function App() {
       <Container className="containeer">
         
         <Col>
+
           <Row>
             <Header />
           </Row>
 
-          <Row fluid xs={12} sm={12}>
+          <Row className='sector-1'>
             
             <div className="with-bg">
               <div className="panel1">
@@ -34,14 +35,20 @@ function App() {
               <Section2 />
             </div>
           </Row>
-
-          <Row className='sector-3'>
+          
+          <div className="wrap-for-bg-new">
+          <Row className='itm sector-3'>
             <Section3 />  
           </Row>  
+          <div className="itm shape"></div>
+          </div>
+          
 
           <Row className='sector-4'>
             <Section4 />
           </Row>
+          
+
         </Col>      
       </Container>
     </>

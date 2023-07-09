@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import App1 from '../components/section-3_comp/car';
 import Product3 from './section-3_comp/product3';
 
+
 function Section3() {
   return (
     <Container id='sector3-padd'>
@@ -14,8 +15,18 @@ function Section3() {
         </Col>
         <Col xs={12} lg={4}> 
           <div className="bg-wrapper">
-            <Product3 />
-            <Product3 />
+            <Container>
+              <Row><Product3 /></Row>
+              <Row><Product3 /></Row>
+              <Row>
+                  <div className="pgn">
+                    <div className="circle circle-1"></div>
+                    <div className="circle circle-2"></div>
+                    <div className="circle circle-3"></div>
+                  </div>
+              </Row>
+            </Container>
+            
           </div>
         </Col>
       </Row>

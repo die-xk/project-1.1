@@ -8,7 +8,7 @@ function Product() {
     <div className='wrapper mb-5 p-0 ms-0'>
        <Container>
         <Col>
-          <Row>
+          <Row className='product-img-cent'>
             <img id='image-1' src="src\assets\product-img\pngegg.png" alt="" />
           </Row>
           <Row>
@@ -19,6 +19,7 @@ function Product() {
               <h2 id='prod-name'>PRODUCT NAME</h2>
             </Row>
             <Row className='review-wrapper'>
+              <img id='stars' src="src\assets\icons\stars.png" alt="" />
               <h5 id='review'>453 reviews</h5>
             </Row>
           </Row>
@@ -30,7 +31,9 @@ function Product() {
             </Col>
             <Col>
               <div className="shop-cart">
-                <img width="20" height="20" src="https://img.icons8.com/ios/20/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+
+              <img id='shop-cart-ico' src="src/assets/products/add-to-cart.png" alt="" />
+
               </div>
             </Col>
           </Row>

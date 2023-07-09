@@ -6,6 +6,7 @@ import Product from './section-2_comp/Product';
 import Categories from './section-2_comp/Categories';
 import ProductFeat from './section-2_comp/ProductFeat';
 
+
 function Section2() {
   return (
     <>
@@ -14,14 +15,14 @@ function Section2() {
           <Col xs={12} sm={12} lg={3}>
             <Categories/>
           </Col>
-          <Col>
-            <Row className='navi-links mt-5'>
-              <Col xs={12} lg={3}>
+          <Col className='products-pads'>
+            <Row className='navi-links '> 
+              <Col xs={12} lg={4}>
                 <span id='what'>WHAT</span><span id='offer'> WE OFFER</span>
               </Col>
               <Col xs={12} lg={3}> <a href="">New Arrivals</a></Col>
               <Col xs={12} lg={3}> <a href=""> Featured </a></Col>
-              <Col xs={12} lg={3}> <a href=""> Popular</a></Col>
+              <Col xs={12} lg={2}> <a href=""> Popular</a></Col>
             </Row>
             <Row className='product-row'>
               <Col>
@@ -33,6 +34,14 @@ function Section2() {
               <Col>
                 <Product/>
               </Col>
+            </Row>
+            <Row className='slider-a'>
+              <div className="slider-btn">
+
+              </div>
+              <div className="slider-a-wrapper">
+                  
+              </div>
             </Row>
           </Col>
           <Row id='last-row'>

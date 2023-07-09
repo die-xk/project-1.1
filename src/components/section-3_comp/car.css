@@ -42,7 +42,8 @@
   }
 
   #Our-new{
-    margin-bottom: 2em;
+    margin-left: 18em;
+    font-size: 1.5em;
   }
 
 .carsizing{
@@ -58,9 +59,13 @@
     width: 250px;
   }
 
-  #Our-new{
-    margin-left: -2em;
+
+
+  .h-wrapper{
+    display: flex;
+    justify-content: center;
   }
+
 
   .range-inp{
     margin-top: 18em !important;
@@ -70,3 +75,26 @@
   }
 }
 
+.bt-btn{
+  padding: 1em;
+  border: 5px #7F5AF0 solid;
+  border-radius: 30px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 0.5em;
+}
+
+.item-it{
+  display: flex;
+  justify-content: center;
+}
+
+.js-ct{
+  display: flex;
+  justify-content: center;
+}
+
+.some-pad{
+  padding-left: 5em;
+}
