@@ -68,10 +68,7 @@ const Product360View: React.FC<Product360ViewProps> = ({ images }) => {
           Rotate
         </button>
       </div>
-      <div className="item-it">
-        <button className='bt-btn' onClick={handlePrevious}>Previous</button>
-        <button className='bt-btn' onClick={handleNext}>Next</button>
-      </div>
+      
     </div>
   );
 };
