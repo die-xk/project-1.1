@@ -40,11 +40,11 @@ function Section1 () {
                             <Row>
                                 <Form>
                                     <Row>
-                                        <Col xs={6} xm={6} lg={6} className='mb-2'>
-                                        <Row>
+                                        <Col xs={6} xm={6} lg={6} className='wrapit'>
+                                            <Row>
                                                 <h2 id='make-model'>Make</h2>
                                             </Row>
-                                            <Row>
+                                            <Row className='row-of-make'>
                                                 <div className="new-border">
                                                     <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
                                                 </div>
@@ -55,7 +55,7 @@ function Section1 () {
                                             <Row>
                                                 <h2 id='make-model'>Model</h2>
                                             </Row>
-                                            <Row>
+                                            <Row className='row-of-make'>
                                                 <div className="new-border">
                                                     <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
                                                 </div>

@@ -36,7 +36,7 @@
     opacity: 0.8;
     border-radius:30px ;
     padding: 0.5em;
-    width: 10em;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: end;
@@ -48,6 +48,14 @@
     height: 0.9em;
     margin-right: 1em;
     transform: rotate(90deg);
+}
+
+.wrapit{
+    margin-right: -5em;
+}
+
+.row-of-make{
+    width: 12em;
 }
 
 #make-model{
