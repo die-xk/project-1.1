@@ -43,12 +43,14 @@ const Product360View: React.FC<Product360ViewProps> = ({ images }) => {
   };
 
   return (
-    <div className='wrapper-for-car'>
+    <div className='wrapper-for-car'
+        onDrag={handleDragMove}
+        onMouseUp={handleDragEnd}
+    >
       
       <div 
         style={{ position: 'relative', width: '380px', height: '380px' }}
-        onMouseMove={handleDragMove}
-        onMouseUp={handleDragEnd}
+        
       >
         {images[currentIndex]}
         <button

@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
 import { Button } from 'react-bootstrap';
 import './section.css'
 
@@ -37,21 +36,19 @@ function Section1 () {
                                 </h3>
                             </Row>  
                             <br />
-                            <Row>
-                                <Form>
-                                    <Row>
-                                        <Col xs={6} xm={6} lg={6} className='wrapit'>
-                                            <Row>
+                            <Row>                                
+                                <div className="wrapper-for-inputs">
+                                    <div className="input-grid-item">
+                                             <Row>
                                                 <h2 id='make-model'>Make</h2>
                                             </Row>
                                             <Row className='row-of-make'>
                                                 <div className="new-border">
                                                     <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
                                                 </div>
-                                            </Row>
-                                            
-                                        </Col>
-                                        <Col>
+                                            </Row> 
+                                    </div>
+                                    <div className="input-grid-item">
                                             <Row>
                                                 <h2 id='make-model'>Model</h2>
                                             </Row>
@@ -60,9 +57,8 @@ function Section1 () {
                                                     <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
                                                 </div>
                                             </Row>
-                                        </Col>
-                                    </Row>
-                                </Form>
+                                    </div>
+                                </div>
                             </Row>
                             <Row>
                                 <h5 id='or' className='text-start'>
