@@ -1,0 +1,294 @@
+.header-wrapper-xs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2em;
+    
+}
+
+
+#ham, #bell{
+    filter: invert(1);
+    margin-right: 2em;
+}
+
+.for-bg{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.card-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 50vh;
+    border-radius: 30px;
+    padding: 1em;
+}
+
+
+
+.for-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.for-menu{
+    display: flex;
+    justify-content: right;
+}
+
+.btn-for-hero{
+    position: relative;
+    left: 10em;
+    text-align: center;
+    font-weight: 900;
+    width: 15vh;
+    padding: 0.5em;
+    background-color: #7F5AF0;
+    border-radius: 30px;
+}
+
+#comp-text{
+    color: white;
+    font-weight: 600;
+    opacity: 1;
+}
+
+#comp-name{
+    padding-bottom: 1em;
+    margin: 0;
+    position: relative;
+    right: 0.5em;
+}
+
+#link-id{
+    padding-top: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+
+.grid-for-strip{
+    position: relative;
+    top: -0.9em;
+    left: 1.8em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 85%;
+    height: 2px;
+    border: 1px gray solid;
+}
+
+#colored{
+    color: #7F5AF0;
+}
+
+.strip-one{
+    border: 2px #7F5AF0 solid;
+    position: relative;
+    top: -2px;
+}
+
+.for-wrapper-bg{
+    height: 80vh;
+}
+
+.prodp-wrapper{
+    position: relative;
+    left: -1em;
+    display: flex;
+    justify-content: center;
+}
+
+#product-list{
+    list-style: none;
+}
+
+#product-list>li{
+    margin-bottom: 1.5em;
+}
+
+.sm-productt{
+    height: 18vh;
+    width: 50vh;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.plc-hldr{
+    border: 1px white solid;
+    height: 10vh;
+    width: 10vh;
+
+}
+
+#sm-prd-nm, #sm-prd-prc{
+    color: white;
+    font-size: 14px !important;
+}
+
+
+.filter-sector{
+    height: 150vh;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+}
+
+.input-wrapping{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-flt{
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 30px;
+    z-index: 4;
+    padding: 0.5em;
+    width: 32vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.year-slid{
+    margin-left:0 ;
+}
+
+#merc, #c-c{
+    opacity: 1;
+    z-index: 5;
+    color: white;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+#flt-arrow{
+    transform: rotate(90deg);
+    width: 2.5vh;
+    height: 5vh;
+    filter: invert(1);
+}
+
+
+.car-and-years{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.car-im>img{
+    width: 15em;
+}
+
+
+
+#years{
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+}
+
+#each{
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.items-for-years{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+
+.line{
+    position: relative;
+    left: 1em;
+    height: 15px;
+    width: 1px;
+    border: 1px white solid;
+}
+
+.two, .six{
+    opacity: 0.6;
+}
+
+.three, .five{
+    opacity: 0.8;
+}
+
+.prood-p>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ima{
+    margin-bottom: -2em;
+}
+
+
+.ima>img{
+    width: 60vh;
+}
+
+#ima1{
+    transform: scale(0.8);
+    opacity: 0.6;
+}
+
+#ima2{
+    transform: scale(1);
+}
+
+#ima3{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+#ima4{
+    transform: scale(0.8);
+    opacity: 0.6;
+}
+
+.last-part-mob{
+    height: 50vh;
+    width: 100%;
+    background-color: #111113;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    padding: 2em;
+}
+
+.item-for-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-for-nav>h3{
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#nmr1,#nmr2,#nmr3,#nmr4{
+    font-size: 1em;
+}
+
+.line-switcher{
+    width: 75vh;
+    height: 1px;
+    border: 0.5px grey solid;
+}
