@@ -43,14 +43,12 @@ const Product360View: React.FC<Product360ViewProps> = ({ images }) => {
   };
 
   return (
-    <div className='wrapper-for-car'
-        onDrag={handleDragMove}
-        onMouseUp={handleDragEnd}
-    >
+    <div className='wrapper-for-car'>
       
       <div 
-        style={{ position: 'relative', width: '380px', height: '380px' }}
-        
+        style={{ position: 'relative', width: '400px', height: '400px' }}
+        onMouseMove={handleDragMove}
+        onMouseUp={handleDragEnd}
       >
         {images[currentIndex]}
         <button
@@ -68,7 +66,10 @@ const Product360View: React.FC<Product360ViewProps> = ({ images }) => {
           Rotate
         </button>
       </div>
-      
+      <div className="item-it">
+        <button className='bt-btn' onClick={handlePrevious}>Previous</button>
+        <button className='bt-btn' onClick={handleNext}>Next</button>
+      </div>
     </div>
   );
 };
