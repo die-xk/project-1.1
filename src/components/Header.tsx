@@ -16,14 +16,14 @@ function Header (){
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
-                        <div className="send-to-left">
+                       
                             <Nav className="me-auto">
                                 
                                 <Nav.Link className='navigation-links' href="#home">Home</Nav.Link>
                                 <Nav.Link className='navigation-links' href="#link">Product</Nav.Link>
                                 <Nav.Link className='navigation-links' href="#link">Contact</Nav.Link>
                             </Nav>
-                        </div>
+                        
                     </Navbar.Collapse>
                 
                 </Container>

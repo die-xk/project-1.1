@@ -72,8 +72,24 @@
 
 
 
-@media only screen and (max-width : 767px){
+@media only screen and (max-width : 576px){
     .section-wrapper{
         padding: 0;
+    }
+    #title{
+        margin-top: 3em;
+    }
+
+    .new-border{
+        width: 7em;
+    }
+
+    .text-starti{
+        margin-top: -1em;
+    }
+
+    .long-btn{
+        width: 16em;
+        margin-bottom: 2em;
     }
 }

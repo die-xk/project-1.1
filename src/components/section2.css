@@ -57,3 +57,9 @@
     background-color: #7F5AF0;
     border: 1px solid #7F5AF0;
 }
+
+@media only screen and (max-width : 576px){
+    .navi-links>Col{
+        align-items: center;
+    }
+}

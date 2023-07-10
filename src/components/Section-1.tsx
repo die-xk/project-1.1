@@ -10,9 +10,9 @@ function Section1 () {
         <>
             <Container className="section-wrapper">
                 
-                <Col xs={12} sm={12} md={12} lg={6}>
-                    <Row xs={12} sm={12}>
-                        <Row xs={12} sm={12}>
+                <Col>
+                    <Row >
+                        <Row>
                             <h2 id='title' className="text-start">
                                 Find anything you need!
                             </h2>
@@ -40,7 +40,7 @@ function Section1 () {
                             <Row>
                                 <Form>
                                     <Row>
-                                        <Col xs={12} xm={12} lg={6} className='mb-2'>
+                                        <Col xs={6} xm={6} lg={6} className='mb-2'>
                                         <Row>
                                                 <h2 id='make-model'>Make</h2>
                                             </Row>
