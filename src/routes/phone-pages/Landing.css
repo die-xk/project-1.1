@@ -27,6 +27,11 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+body{
+    min-width: 250px;
+    overflow-x: hidden;
+}
+
 
 
 .for-logo{
