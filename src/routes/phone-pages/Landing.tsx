@@ -1,24 +1,13 @@
 import './Landing.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-
+import Header from '../../components/Header';
 
 
 function Landing() {
   return (
     <>
-        <div className='header-wrapper-xs'>
-            <div className="item-xs for-logo">
-                Logo
-            </div>
-            <div className="item-xs">
-                
-            </div>
-            <div className="item-xs for-menu">
-                <img id='bell' src="src/assets-mob/icons/bell.png" alt="" />
-                <img id='ham' src="src/assets-mob/icons/more.png" alt="" />
-            </div>
-        </div>
+        <Header />
         <section className='for-bg'>
             <div className="card-one">
                 <Container>
@@ -228,8 +217,6 @@ function Landing() {
             </div>
             <div className="line-switcher"></div>
         </section>
-
-       
     </>
   )
 };

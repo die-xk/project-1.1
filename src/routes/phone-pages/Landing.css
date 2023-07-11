@@ -1,11 +1,3 @@
-.header-wrapper-xs{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 2em;
-    
-}
-
-
 #ham, #bell{
     filter: invert(1);
     margin-right: 2em;
@@ -16,8 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+    background-image: url('src/assets-mob/bg/bg-1.png');
+    background-size: cover;
 }
 
 .card-one{
@@ -28,6 +20,11 @@
     width: 50vh;
     border-radius: 30px;
     padding: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -54,6 +51,7 @@
 }
 
 #comp-text{
+    z-index: 999;
     color: white;
     font-weight: 600;
     opacity: 1;
@@ -97,6 +95,8 @@
 
 .for-wrapper-bg{
     height: 80vh;
+    background-image: url('src/assets-mob/bg/b-2.png');
+    background-size: cover;
 }
 
 .prodp-wrapper{
@@ -139,7 +139,7 @@
 
 
 .filter-sector{
-    height: 150vh;
+    height: auto;
     padding-left: 2em;
     padding-top: 1em;
     padding-right: 2em;
@@ -148,8 +148,10 @@
 .input-wrapping{
     margin-top: 1em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
+
 
 .btn-flt{
     background-color: rgba(256, 256, 256, 0.2);
@@ -160,6 +162,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0.5em;
 }
 
 
@@ -188,6 +191,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .car-im>img{
@@ -229,6 +233,10 @@
     opacity: 0.8;
 }
 
+.prood-p{
+    margin: 0;
+}
+
 .prood-p>ul{
     list-style: none;
     margin: 0;
@@ -237,6 +245,9 @@
 
 .ima{
     margin-bottom: -2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -288,7 +299,7 @@
 }
 
 .line-switcher{
-    width: 75vh;
+    width: 90vw;
     height: 1px;
     border: 0.5px grey solid;
 }

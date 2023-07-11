@@ -7,19 +7,19 @@ function Header (){
     return(
         <>
             <Navbar expand="lg" bg="dark" variant="light" className="color-nav">
-                <Container className ="d-flex justify-content-end">
+                <Container className ="d-flex">
 
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand>
                         <img id='logo' src="src\assets\company-logo.png" alt="" />
                     </Navbar.Brand>
 
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
+                            
                         <div className="send-to-left">
                             <Nav className="me-auto">
-                                
-                                <Nav.Link className='navigation-links' href="#home">Home</Nav.Link>
+                                <Nav.Link className='navigation-links' href="src/routes/pages/about-us/About.tsx">Home</Nav.Link>
                                 <Nav.Link className='navigation-links' href="#link">Product</Nav.Link>
                                 <Nav.Link className='navigation-links' href="#link">Contact</Nav.Link>
                             </Nav>
