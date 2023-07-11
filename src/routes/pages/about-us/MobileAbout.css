@@ -1,0 +1,67 @@
+
+
+@media only screen and (max-width : 576px){
+    .dsp-for-others{
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 576px){
+    .dsp-txt{
+        display: none;
+    }
+}
+
+.dsp-txt{
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+
+.clr-mbl{
+    background-color: transparent !important;
+    padding: 1em;
+}
+
+.two-prgh{
+    padding: 2em;
+    padding-right: 6em;
+}
+
+#t-m{
+    font-size: 1.5em;
+    color: white;
+}
+
+#t-s{
+    padding-left: 2em;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+.partners-mlb{
+    padding: 2em;
+}
+
+.partner-dsp-mlb{
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-wrp{
+    height: 20vh;
+    width: 20vh;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 30px;
+}
+
+.bg-for-abt{
+    background-color: transparent !important;
+    background-image: url("src/assets-mob/bg/bg-abt.png");
+    background-size: cover;
+}

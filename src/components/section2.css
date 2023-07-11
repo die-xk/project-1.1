@@ -58,8 +58,13 @@
     border: 1px solid #7F5AF0;
 }
 
-@media only screen and (max-width : 576px){
+@media only screen and (max-width : 1000px){
     .navi-links>Col{
         align-items: center;
+        text-align: center;
+        padding-left: 4em;
+    }
+    .navi-links{
+        padding-top: 2em;
     }
 }

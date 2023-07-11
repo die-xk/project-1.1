@@ -1,9 +1,12 @@
-import React from 'react'
+import MediaQuery from "react-responsive";
+import MobileAbout from "./MobileAbout";
 
 function About() {
   return (
     <>
-        <h1></h1>
+        <MediaQuery query="(max-device-width: 576px)">
+            <MobileAbout />
+        </MediaQuery>
     </>
   )
 }

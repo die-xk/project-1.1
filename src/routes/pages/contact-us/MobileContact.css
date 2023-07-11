@@ -1,0 +1,54 @@
+#links-for-sc{
+    margin-top: 3em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links{
+    margin-top: 1.5em;
+    height: 15vh;
+    width: 50vh;
+    border-radius: 50px;
+    background-color: rgba(256, 256, 256, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#fr-logo{
+    height: 10vh;
+    width: 10vh;
+    border: 1px white solid;
+}
+
+.fr-txt{
+    font-weight: 900;
+    font-size: 1.5em;
+    color: white;
+}
+
+#for-sc{
+    margin-top: 3em;
+    display: grid;
+    margin-bottom: 2em;
+}
+
+#ttxt{
+    opacity: 0.8;
+    padding-left: 2em;
+    font-size: 1.8em;
+}
+
+.img-cont-wrp{
+    margin-top: 2em;
+    margin-left: 4em;
+    height: 50vh;
+    width: 50vh;
+    border: 1px white solid;
+}
+
+.bg-for-cont{
+    background-image: url("src/assets-mob/bg/bg-cont.png");
+    background-size: 150vh;
+
+}

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -19,9 +20,15 @@ function Header (){
                             
                         <div className="send-to-left">
                             <Nav className="me-auto">
-                                <Nav.Link className='navigation-links' href="src/routes/pages/about-us/About.tsx">Home</Nav.Link>
-                                <Nav.Link className='navigation-links' href="#link">Product</Nav.Link>
-                                <Nav.Link className='navigation-links' href="#link">Contact</Nav.Link>
+                                <Nav.Link className='navigation-links'>
+                                    <Link to="/about">About</Link>
+                                </Nav.Link>
+                                <Nav.Link className='navigation-links'>
+                                    <Link to="/contact">Contact</Link>
+                                </Nav.Link>
+                                <Nav.Link className='navigation-links'>
+                                    <Link to="/products">Products</Link>
+                                </Nav.Link>
                             </Nav>
                         </div>
                     </Navbar.Collapse>
