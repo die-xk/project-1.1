@@ -18,6 +18,11 @@
 }
 
 
+.bg-bg-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 .pgn{
     margin-top: 2em;
    width: 100%;

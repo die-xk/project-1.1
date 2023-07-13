@@ -39,21 +39,21 @@ function Section1 () {
                             <Row>                                
                                 <div className="wrapper-for-inputs">
                                     <div className="input-grid-item">
-                                             <Row>
+                                             <Row className='row-for-make'>
                                                 <h2 id='make-model'>Make</h2>
                                             </Row>
-                                            <Row className='row-of-make'>
+                                            <Row className='row-of-make row-of-makeing'>
                                                 <div className="new-border">
                                                     <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
                                                 </div>
                                             </Row> 
                                     </div>
                                     <div className="input-grid-item">
-                                            <Row>
+                                            <Row className='row-for-make'>
                                                 <h2 id='make-model'>Model</h2>
                                             </Row>
                                             <Row className='row-of-make'>
-                                                <div className="new-border">
+                                                <div className="new-border new-border-new">
                                                     <img id='arrow-for-filter' src="src\assets\icons\arrow.png" alt="" />
                                                 </div>
                                             </Row>

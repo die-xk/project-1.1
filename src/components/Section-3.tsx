@@ -13,7 +13,7 @@ function Section3() {
         <Col xs={12} lg={8}>
           <App1 />
         </Col>
-        <Col xs={12} lg={4}> 
+        <Col xs={12} lg={4} className='bg-bg-wrapper'> 
           <div className="bg-wrapper">
             <Container>
               <Row><Product3 /></Row>

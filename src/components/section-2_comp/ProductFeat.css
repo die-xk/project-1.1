@@ -36,7 +36,7 @@
 .product-wimg{
     position: relative;
     left: -3em;
-    height: 12em;
+    height: 30vh;
     
 }
 
@@ -46,5 +46,18 @@
     padding: 1em;
     grid-template-columns: auto auto auto auto;
     background: #16161A;
+    gap: 1em;
     
 }
+
+@media only screen and (max-width : 990px){
+    .product-wimg{
+        height: 20vh;
+    }
+  }
+
+  @media only screen and (max-width : 680px){
+    .product-wimg{
+        height: 18vh;
+    }
+  }

@@ -9,18 +9,34 @@ function ProductFeat() {
     <Container>
         <Row>
             <Col className='wrapper-for-prod-1'>
-                <div className="grid-items-for-prod">
-                    <img className="product-wimg" src="src/assets/products/Brakes.png" alt="" />
-                </div>
-                <div className="grid-items-for-prod">
-                    <img className="product-wimg" src="src/assets/products/Lights.png" alt="" />
-                </div>
-                <div className="grid-items-for-prod">
-                    <img className="product-wimg" src="src/assets/products/Seats.png" alt="" />
-                </div>
-                <div className="grid-items-for-prod">
-                    <img className="product-wimg" src="src/assets/products/Tires.png" alt="" />
-                </div>                
+                <Row xs={12} sm={12} md={12}>
+                    <Col xs={12} sm={12}>
+                        
+                        <img className="product-wimg" src="src/assets/products/Brakes.png" alt="" />
+                        
+                    </Col>
+                    <Col xs={12} sm={12} md={12}>
+                        
+                        <img className="product-wimg" src="src/assets/products/Lights.png" alt="" />
+                        
+                    </Col>
+                </Row>
+                <Row xs={12} sm={12} md={12}>
+                    <Col xs={12} sm={12}>
+                        
+                        <img className="product-wimg" src="src/assets/products/Seats.png" alt="" />
+                        
+                    </Col>
+                    <Col xs={12} sm={12}>
+                        
+                        <img className="product-wimg" src="src/assets/products/Tires.png" alt="" />
+                         
+                    </Col>
+                </Row>
+                
+                
+                
+                               
             </Col>
             <Col className='wrapper-for-sings'>
                     <div className="grid-item">

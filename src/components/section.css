@@ -114,3 +114,17 @@
         margin-bottom: 2em;
     }
 }
+
+@media only screen and (max-width :800px){
+    .row-of-make{
+        margin-left: 1em;
+    }
+    .row-for-make{
+        margin-left: 1em;
+    }
+
+    .row-of-makeing{
+        margin-left: 0;
+    }
+
+  }
