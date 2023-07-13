@@ -9,7 +9,7 @@ const Product360View: React.FC = () => {
     if (!containerRef.current) return;
     const containerWidth = containerRef.current.offsetWidth;
     const x = e.nativeEvent.offsetX;
-    const imageCount = 7; // Number of images in the 360-degree view
+    const imageCount = 6; // Number of images in the 360-degree view
     const newIndex = Math.floor((x / containerWidth) * imageCount);
     setImageIndex(newIndex);
   };
