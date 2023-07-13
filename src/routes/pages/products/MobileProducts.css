@@ -20,8 +20,8 @@
 }
 
 .card-for-caru{
-    height: 30vh;
-    width: 22vh;
+    height: 24vh;
+    width: 16vh;
     background-color: #7F5AF0;
 
 }
@@ -35,14 +35,15 @@
     padding-left: 1em;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     height: 60vh;
     width: 100%;
 }
 
 #poly {
     position: relative;
-    top: 20.2vh;
-    right: -7.1vh;
+    top: 14.2vh;
+    right: -1.1vh;
    width: 0px;
    height: 0px;
    border-style: solid;
@@ -52,13 +53,13 @@
 }
 
 .prod-changer{
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background: #16161A;
     box-shadow:  20px 20px 60px #131316,
                 -20px -20px 60px #19191e;
     position: relative;
-    top: -5em;
+    top: -10em;
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;

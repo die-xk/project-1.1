@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import './car.css'
 
 const Product360View: React.FC = () => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -15,7 +16,7 @@ const Product360View: React.FC = () => {
 
   return (
     <div
-      className=""
+      className="move"
       ref={containerRef}
       onMouseMove={handleMouseMove}
     >

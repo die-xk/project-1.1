@@ -1,0 +1,64 @@
+.map-row{
+   padding-top: 2em !important;
+   gap: 4em;
+}
+
+#map-txt{
+    color: #7F5AF0;
+    font-size: 3em;
+}
+
+#map-prgh{
+    margin-top: 2em;
+    color: #7F5AF0;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#call-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 3em;
+    background-color: #7F5AF0;
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+#call-txt{
+    font-size: 1em;
+    font-weight: 900;
+    margin: 0;
+}
+
+#call-row{
+    margin-top: 2em;
+    display: flex;
+    justify-content: right;
+}
+
+#partner-txt{
+    color: #7F5AF0;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.prtn-cards{
+    height: 10em;
+    width: 12em;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 0.8;
+    animation-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.prtn-cards:hover{
+    transform: scale(1.2);
+    
+}
+
+.cont-cont{
+    padding: 2em;
+}

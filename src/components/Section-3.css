@@ -1,5 +1,8 @@
 #sector3-padd{
     margin-top: 5em;
+    background-image: url('src/assets-mob/bg/Untitled.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .bg-wrapper{

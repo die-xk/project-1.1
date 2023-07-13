@@ -68,7 +68,7 @@ function MobileAbout() {
                     </li>
                     <li className="wheel-items mid">
                         <h4 id='wheel-txt'>
-                            Wheels
+                           <a href=""> Wheels</a>
                         </h4>
                         <div className="feat-wrp-f">213</div>
                     </li>
