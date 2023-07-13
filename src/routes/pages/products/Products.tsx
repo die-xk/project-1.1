@@ -32,7 +32,7 @@ function Products() {
               </Row>
             
             </div>
-            <Row className="sector-4">
+            <Row className="sector-4 addded">
               <Section4 />
             </Row>
           </Col>
