@@ -121,7 +121,7 @@ body{
 
 .sm-productt{
     height: 18vh;
-    width: 50vh;
+    width: 24rem;
     background-color: black;
     border-radius: 30px;
     display: flex;
@@ -130,6 +130,11 @@ body{
     padding: 1em;
 }
 
+@media only screen and (max-width : 420px){
+    .sm-productt{
+        width: 100%;
+    }
+}
 .plc-hldr{
     border: 1px white solid;
     height: 10vh;
@@ -257,7 +262,18 @@ body{
 
 
 .ima>img{
-    width: 60vh;
+    width: 30rem;
+}
+
+@media only screen and (max-width : 550px){
+    .ima>img{
+        width: 20rem;
+    }
+
+    .ima{
+        position: relative;
+        left: -1em;
+    }
 }
 
 #ima1{
