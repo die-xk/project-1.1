@@ -201,11 +201,11 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .car-im>img{
-    width: 15em;
+    width: 10em;
 }
 
 
@@ -278,7 +278,7 @@ body{
 
 #ima1{
     transform: scale(0.8);
-    opacity: 0.6;
+    opacity: 0.2;
 }
 
 #ima2{
@@ -287,12 +287,12 @@ body{
 
 #ima3{
     transform: scale(0.9);
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 #ima4{
     transform: scale(0.8);
-    opacity: 0.6;
+    opacity: 0.2;
 }
 
 .last-part-mob{
