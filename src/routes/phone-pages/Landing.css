@@ -132,7 +132,10 @@ body{
 
 @media only screen and (max-width : 420px){
     .sm-productt{
-        width: 100%;
+        width: 50vh;
+        padding: 2em;
+        display: flex;
+        justify-content: space-between;
     }
 }
 .plc-hldr{

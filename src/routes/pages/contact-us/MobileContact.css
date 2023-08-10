@@ -1,6 +1,7 @@
 #links-for-sc{
     margin-top: 3em;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }

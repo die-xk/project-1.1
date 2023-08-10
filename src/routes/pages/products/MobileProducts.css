@@ -1,5 +1,7 @@
 #for-src{
     margin: 3em;
+    display: flex;
+    justify-content: center;
 }
 
 .src-flt-mob{
@@ -20,8 +22,8 @@
 }
 
 .card-for-caru{
-    height: 24vh;
-    width: 16vh;
+    height: 30vh;
+    width: 20vh;
     background-color: #7F5AF0;
 
 }
@@ -42,8 +44,8 @@
 
 #poly {
     position: relative;
-    top: 14.2vh;
-    right: -1.1vh;
+    top: 20.2vh;
+    right: -5.2vh;
    width: 0px;
    height: 0px;
    border-style: solid;
