@@ -204,7 +204,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .car-im>img{
@@ -274,6 +274,21 @@ body{
     }
 
     .ima{
+        position: relative;
+        left: -1em;
+    }
+}
+
+@media only screen and (max-width : 400px){
+    #years{
+        padding-top: 1em ;
+    }
+    .item-for-nav{
+        position: relative;
+        left: -1em;
+    }
+    .line-switcher{
+        width: 100vw;
         position: relative;
         left: -1em;
     }

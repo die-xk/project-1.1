@@ -97,7 +97,19 @@ function MobileAbout() {
                 </ul>
             </section>
 
-            
+            <section className='for-mobile-list'>
+                <div className="a-line">   
+                </div>
+
+                <ul className="list-for-mobile-tires" id='categories-wheel'>
+                    <li className="ite-f-mb" id='wheel-txt'>Pirelli</li>
+                    <li className="ite-f-mb" id='wheel-txt'>Michellin</li>
+                    <li className="ite-f-mb" id='wheel-txt'>Komo</li>
+                    <li className="ite-f-mb" id='wheel-txt'>GoodYear</li>
+                    <li className="ite-f-mb" id='wheel-txt'>Sava</li>
+                    
+                </ul>
+            </section>
 
 
             <section className="proodi">
